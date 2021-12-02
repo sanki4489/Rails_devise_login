@@ -1,24 +1,17 @@
-# README
+Devise gem usuage:-
+1.Sign Up User
+i)hashed password
+ii)confirmation
+iii)forgot password
+2.Log In User
+i)remember me
+3.Log Out User
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Devise gem setup:-
+1.Install gem-> gem 'devise'
+2.bundle install
+3.rails generate devise:install
+4.rails generate devise User
+5.rails db:migrate
+6.before_action :authenticate_user!
+7.Set the flash messages
