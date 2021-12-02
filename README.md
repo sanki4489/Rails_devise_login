@@ -15,3 +15,7 @@ Devise gem setup:-
 5.rails db:migrate
 6.before_action :authenticate_user!
 7.Set the flash messages
+
+Devise bootstrap view gem 1.<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+2.gem 'devise-bootstrap-views', '~> 1.0'
+3.bundle install
